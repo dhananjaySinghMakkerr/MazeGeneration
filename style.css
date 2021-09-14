@@ -1,6 +1,5 @@
 html, body {
   margin: 0;
-  display: flex;
   padding: 0;
   background-color:#ffcc5c;
 }
@@ -13,24 +12,20 @@ canvas {
 }
 .container
 {
-  background-color:#ffcc5c;
+   background-color:#ffcc5c;
 }
 #canva
 {
   text-align:center;
   margin-top:0px;
   background-color:#ffcc5c;
-  margin-right:0px;
   padding-top:3%;
 }
 #canva2
 {
   text-align:center;
   margin-top:0px;
-  margin-left:0px;
   background-color:#ffcc5c;
   padding-top:5%;
-  padding-left:5%;
-  
+  padding-left:5%
 }
-
