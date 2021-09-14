@@ -130,7 +130,7 @@ function removeWalls(a,b)
 }
 function setup() {
 
-  createCanvas(600,600);
+  createCanvas(560,560);
   cols=floor(width/size);
   rows=floor(height/size);
   frameRate(5);
