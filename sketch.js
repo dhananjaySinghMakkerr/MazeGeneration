@@ -116,7 +116,7 @@ function setup() {
 
 function draw() {
   background(200);
-  cnv=createCanvas(400,400);
+  cnv=createCanvas(600,600);
    cnv.parent('canva');
   for(var i=0;i<grid.length;i++)
     {
