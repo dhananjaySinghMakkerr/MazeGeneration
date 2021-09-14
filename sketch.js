@@ -5,7 +5,7 @@ var sketch=function(p)
   p.setup=function()
   {
    
-    p.cv=p.createCanvas(600, 200);
+    p.cv=p.createCanvas(500, 200);
      p.background(100,100);
     p.cv.parent('canva2');
      
