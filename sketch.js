@@ -5,7 +5,7 @@ var sketch=function(p)
   p.setup=function()
   {
    
-    p.cv=p.createCanvas(500, 200);
+    p.cv=p.createCanvas(400, 100);
      p.background(100,100);
     p.cv.parent('canva2');
      
@@ -15,7 +15,7 @@ var sketch=function(p)
   {
     p.frameRate(10);
    p.background(10+p.trans);
-    p.textSize(40);
+    p.textSize(30);
     if(p.tx==p.width)
       {
         p.tx=0;
@@ -130,7 +130,7 @@ function removeWalls(a,b)
 }
 function setup() {
 
-  createCanvas(560,560);
+  createCanvas(600,600);
   cols=floor(width/size);
   rows=floor(height/size);
   frameRate(5);
