@@ -14,9 +14,11 @@ canvas {
 #canva
 {
   text-align:center;
+  background-color:#ffcc5c;
 }
 .heading
 {
    text-align:center;
+  background-color:#ffcc5c;
   font-family: 'ProFontWindows', sans-serif;
 }
