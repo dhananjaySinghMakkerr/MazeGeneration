@@ -1,3 +1,36 @@
+var sketch=function(p)
+{
+  p.tx=0;
+  p.trans=50;
+  p.setup=function()
+  {
+   
+    p.cv=p.createCanvas(600, 200);
+     p.background(100,100);
+    p.cv.parent('canva2');
+     
+
+  }
+  p.draw=function()
+  {
+    p.frameRate(10);
+   p.background(10+p.trans);
+    p.textSize(40);
+    if(p.tx==p.width)
+      {
+        p.tx=0;
+        p.trans=0;
+        
+      }
+  p.textFont('Helvetica');
+  p.text('Maze Generation using DFS!',p.width/2-300+p.tx, p.height/2);
+     p.tx=p.tx+10;
+    p.trans=p.trans+5;
+  }
+}
+
+
+
 var size=40;
 var current;
 var rows,cols;
@@ -136,5 +169,4 @@ function draw() {
     }
   current.highlight();
 }
-
-
+var myp5=new p5(sketch);
