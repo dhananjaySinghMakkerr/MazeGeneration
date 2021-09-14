@@ -117,9 +117,7 @@ function setup() {
 function draw() {
   background(200);
   cnv=createCanvas(400,400);
-    var p = (windowWidth - width) / 2;
-  var q = (windowHeight - height) / 2;
-  cnv.position(p, q);
+   cnv.parent('canva');
   for(var i=0;i<grid.length;i++)
     {
       grid[i].show();
